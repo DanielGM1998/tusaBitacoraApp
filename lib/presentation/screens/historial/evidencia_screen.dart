@@ -141,7 +141,7 @@ class _EvidenciaScreenState extends State<EvidenciaScreen> with SingleTickerProv
     } catch (e) {
       log("❌ Error de conexión FTP: $e");
       if (mounted) {
-        onError("Sin conexión. Solo se mostrarán imágenes locales.");
+        onError("Verificar conexión a Internet");
       }
     } finally {
       try {
