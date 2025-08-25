@@ -1,8 +1,10 @@
 
-import 'package:googleapis_auth/auth_io.dart';
+//import 'package:googleapis_auth/auth_io.dart';
 
 class GetServiceKey {
   Future<String> getServerKeyToken() async{
+    return "";
+    /*
     final scopes = [
       'https://www.googleapis.com/auth/userinfo.email',
       'https://www.googleapis.com/auth/firebase.database',
@@ -29,5 +31,6 @@ class GetServiceKey {
     );
     final accessServerKey = client.credentials.accessToken.data;
     return accessServerKey;
+    */
   }
 }
