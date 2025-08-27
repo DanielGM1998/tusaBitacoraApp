@@ -24,7 +24,8 @@
         android:icon="@mipmap/launcher_icon"
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true"
-        android:enableOnBackInvokedCallback="true">
+        android:enableOnBackInvokedCallback="true"
+        android:exported="true">
         <!-- <service
             android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
             android:exported="true"
